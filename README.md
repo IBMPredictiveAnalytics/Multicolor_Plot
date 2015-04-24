@@ -31,6 +31,8 @@ Documentation and samples
 ----
 - Find a PDF with the documentation of this extension in the [Documentation][5] directory
 - There is a sample available in the [example][6] directory
+- Video-tutorial
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/or6o4-H0KWs/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 ---
 License
