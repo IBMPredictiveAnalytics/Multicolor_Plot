@@ -1,12 +1,12 @@
-#Plot Heatmaps
+#Multicolor Plot
 ###IBM SPSS Modeler Predictive Extensions
 
-This SPSS Modeler ‘output’ node allows you to plot spatial data on a density heatmap. Simply install the node, select the coordinate’s fields and choose the visual parameters that suit you best. Then start visualizing simply and easily your data directly in IBM SPSS Modeler.
+This SPSS Modeler Output node allows you to plot different intervals of a same curve in various colors. Simply install the node, select the coordinate’s fields, select the different intervals you want and choose the visual parameters that suit you best.
 
-![Map](https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/blob/master/Screenshot/maps.gif?raw=true)
+![Map](https://github.com/IBMPredictiveAnalytics/Multicolor-Plot/blob/master/Screenshot/Illustration1.png?raw=true)
+![Map](https://github.com/IBMPredictiveAnalytics/Multicolor-Plot/blob/master/Screenshot/Illustration2.png?raw=true)
+![Map](https://github.com/IBMPredictiveAnalytics/Multicolor-Plot/blob/master/Screenshot/Illustration3.png?raw=true)
 
-Check some live screenshots here:
-- [Crime in Chicago][10]
 
 ---
 Requirements
@@ -25,12 +25,6 @@ Installation intructions
 2. Close IBM SPSS Modeler. Save the .cfe file in the CDB directory, located by default on Windows in "C:\ProgramData\IBM\SPSS\Modeler\16\CDB" or under your IBM SPSS Modeler installation directory.
 3. Restart IBM SPSS Modeler, the node will now appear in the Model palette.
 
----
-R Packages used
-----
-The R packages will be installed the first time the node is used as long as an Internet connection is available.
-- [ggmap][4]
-- [ggplot2][11]
 
 ---
 Documentation and samples
@@ -42,7 +36,7 @@ Documentation and samples
 License
 ----
 
-[Apache 2.0][1]
+- [Apache 2.0][1]
 
 
 Contributors
@@ -53,9 +47,7 @@ Contributors
 
 [1]: http://www.apache.org/licenses/LICENSE-2.0.html
 [2]:https://developer.ibm.com/predictiveanalytics/downloads/#tab2
-[3]:https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/raw/master/Source%20code/plotHeatmaps.cfe
-[4]:http://cran.r-project.org/web/packages/ggmap/index.html
-[5]:https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/blob/master/Documentation/PlotHeatmap-SPSSModelerExtension.pdf
-[6]:https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/tree/master/Example
-[10]:https://github.com/IBMPredictiveAnalytics/Plot-Heatmaps/tree/master/Screenshot
-[11]:http://cran.r-project.org/web/packages/ggplot2/index.html
+[3]:https://github.com/IBMPredictiveAnalytics/Multicolor-Plot/raw/master/Source%20code/MultiColorsPlot.cfe
+[5]:https://github.com/IBMPredictiveAnalytics/Multicolor-Plot/blob/master/Documentation/MultiColorPlot-SPSSModelerExtension.pdf
+[6]:https://github.com/IBMPredictiveAnalytics/Multicolor-Plot/tree/master/Example
+[10]:https://github.com/IBMPredictiveAnalytics/Multicolor-Plot/tree/master/Screenshot
