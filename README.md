@@ -11,7 +11,7 @@ This SPSS Modeler Output node allows you to plot different intervals of a same c
 ---
 Requirements
 ----
-- IBM SPSS Modeler v16.0 or later
+- IBM SPSS Modeler v16 or later
 - IBM SPSS Modeler 'R Essentials'
 - R 2.15.x or R 3.1
 
